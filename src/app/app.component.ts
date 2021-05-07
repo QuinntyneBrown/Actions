@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Actions';
+  public save() {
+    alert("Save");
+  }
+
+  public cancel() {
+    alert("Cancel");
+  }
 }
